@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <script src="product-page.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="row">
+        <div class="l-nav-l"></div>
+        <div class="l-nav-mid">
+            <div class="search-bar row l-search-bar">
+                <div class="box product-search-bar">
+                    <input name="loc" type="text" placeholder="Start your search">
+                </div>
+                <div class="box search-btn" style="border: none;">
+                    <div class="search l-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="nav-r row">
+            <div class="nav-r-l">
+                <a href="#" style="color: black;">Become a Host</a>
+                <i class="fa-solid fa-globe" style="color: black;"></i>
+            </div>
+            <div class="nav-r-r row" style="border: 1px solid rgb(216, 213, 213);">
+                <i class="fa-solid fa-bars"></i>
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- section are named with numbers in words -->
+    <div class="product">
+        <!-- <div class="first">
+            <div class="upper">
+                <div class="left">
+                    <h1>title</h1>
+                    <div class="box1">
+                        <div class="left">
+                            <div class="box2">
+                                <i class="fa-solid fa-star"></i> 5.0 . 7 review . super host. address
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="box2">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> share
+                                <i class="fa-solid fa-heart"></i> save
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="lower">
+                <div class="pic-cont">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <div class="mini-pic-cont">
+                        <img
+                            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60">
+                        <img
+                            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60">
+                        <img
+                            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60">
+                        <img
+                            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="second">
+            <div class="left">
+                <div class="up">
+                    <div class="obj1">
+                        <h3>Entire rental unit hosted by host name</h3>
+                        <div class="box2">2 guest . 1 bedroom . 1 bed . 1 bath</div>
+                    </div>
+                    <div class="obj2">
+                        <img class="profile-pic"
+                            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <img class="badge" src="images/product-page-assests/Airbnb Superhost Badge.png" alt="">
+                    </div>
+                </div>
+                <hr>
+                <div class="mid">
+                    <div class="mid-row">
+                        <i class="fa-solid fa-house"></i>
+                        <div class="div">
+                            <h4>Entire Home</h4>
+                            <p>You'll have apartment to yourself</p>
+                        </div>
+                    </div>
+                    <div class="mid-row">
+                        <i class="fa-solid fa-hand-sparkles"></i>
+                        <div>
+                            <h4>Enhanced clean</h4>
+                            <p>This Host committed to Airbnb's 5-step enhanced cleaning process. <a href="#">Show more.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mid-row">
+                        <i class="fa-solid fa-door-closed"></i>
+                        <div>
+                            <h4>Self check-in</h4>
+                            <p>Check yourself in with the keypad.</p>
+                        </div>
+                    </div>
+                    <div class="mid-row">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h4>Free cancellation before Feb 14</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="bot">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque id illo eos mollitia quod vel
+                    beatae tempora recusandae minima provident qui tempore delectus error enim quidem odio explicabo
+                    voluptatem eaque porro, tenetur excepturi magnam blanditiis. Quo aut nostrum dicta, ea blanditiis illum
+                    ipsum numquam culpa dolores unde. Quod, blanditiis velit.
+                </div>
+                <hr>
+    
+            </div>
+            <div class="right">
+                <div class="first row" style="margin-bottom: 10px;">
+                    <h3>$75/night</h3>
+                    <div>
+                        <i class="fa-solid fa-star"></i> 5.0 . 7 review
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="info-box">
+                        <div class="">
+                            <h5>CHECK-IN</h5>
+                            <P>1-23-2323</P>
+                        </div>
+                        <div class="">
+                            <h5>CHECK-OUT</h5>
+                            <P>1-23-2323</P>
+                        </div>
+                    </div>
+                    <div class="dropDown">
+                        <label for="drop-down"></label>
+                        <select name="drop-down" id="">
+                            <option value="dummy1">dummy1</option>
+                            <option value="dummy2">dummy2</option>
+                        </select>
+                    </div>
+                    <button>Reserve</button>
+                    <p>You Won't Be Charged Yet</p>
+                </div>
+                <div class="third">
+                    <div class="row">
+                        <p>$79 * 7 nights </p>
+                        <p>$555</p>
+                    </div>
+                    <div class="row">
+                        <p>Weekly discount </p>
+                        <p>$555</p>
+                    </div>
+                    <div class="row">
+                        <p>Cleaning fee</p>
+                        <p>$555</p>
+                    </div>
+                    <div class="row">
+                        <p>Service fee</p>
+                        <p>$555</p>
+                    </div>
+                    <div class="row">
+                        <p>Occupancy taxes and fees</p>
+                        <p>$555</p>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <p>Total</p>
+                        <p>$555</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="third">
+            <h3>Where you'll sleep</h3>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                    alt="">
+                <p style="font-weight: 600;">Bedroom</p>
+                <p>1 queen bed</p>
+                <hr>
+            </div>
+        </div>
+    
+        <div class="fourth">
+            <h3>What this place offers</h3>
+            <div class="words">
+                <p>Garden view</p>
+                <p>Wifi</p>
+                <p>Free washer - in building</p>
+                <p>Central air conditioning</p>
+                <p>Refridgerator</p>
+                <p>Kitchen</p>
+                <p>Pets allowed</p>
+                <p>Dryer</p>
+                <p>Security cameras on property</p>
+                <p>Bicycles</p>
+            </div>
+            <button>Show all 37 amenities</button>
+            
+        </div>
+    
+        <hr style="width: 90%; margin: auto;">
+        <div class="fifth">
+            <div class="board">
+                <i class="fa-solid fa-star"></i>
+                <p>5.0 . </p>
+                <p>7 reviews</p>
+            </div>
+            <div class="progress-bars">
+                <div class="bar">
+                    <label for="">Cleanliness</label>
+                    <div class="actual-bar">
+                        <div class="outer">
+                            <div class="inner"></div>
+                        </div>
+                        <p>4.0</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <label for="">Accuracy</label>
+                    <div class="actual-bar">
+                        <div class="outer">
+                            <div class="inner"></div>
+                        </div>
+                        <p>4.0</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <label for="">Communication</label>
+                    <div class="actual-bar">
+                        <div class="outer">
+                            <div class="inner"></div>
+                        </div>
+                        <p>4.0</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <label for="">Location</label>
+                    <div class="actual-bar">
+                        <div class="outer">
+                            <div class="inner"></div>
+                        </div>
+                        <p>4.0</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <label for="">Check-in</label>
+                    <div class="actual-bar">
+                        <div class="outer">
+                            <div class="inner"></div>
+                        </div>
+                        <p>4.0</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <label for="">Value</label>
+                    <div class="actual-bar">
+                        <div class="outer">
+                            <div class="inner"></div>
+                        </div>
+                        <p>4.0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="user-profile">
+                    <div class="user-details">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="details-box">
+                            <div class="user-name">jose</div>
+                            <div class="com-data">12-12-2023</div>
+                        </div>
+                    </div>
+                    <p>Comments are not provided by this api</p>
+                </div>
+    
+                <div class="user-profile">
+                    <div class="user-details">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="details-box">
+                            <div class="user-name">jose</div>
+                            <div class="com-data">12-12-2023</div>
+                        </div>
+                    </div>
+                    <p>Comments are not provided by this api</p>
+                </div>
+    
+                <div class="user-profile">
+                    <div class="user-details">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="details-box">
+                            <div class="user-name">jose</div>
+                            <div class="com-data">12-12-2023</div>
+                        </div>
+                    </div>
+                    <p>Comments are not provided by this api</p>
+                </div>
+                <div class="user-profile">
+                    <div class="user-details">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="details-box">
+                            <div class="user-name">jose</div>
+                            <div class="com-data">12-12-2023</div>
+                        </div>
+                    </div>
+                    <p>Comments are not provided by this api</p>
+                </div>
+    
+                <div class="user-profile">
+                    <div class="user-details">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="details-box">
+                            <div class="user-name">jose</div>
+                            <div class="com-data">12-12-2023</div>
+                        </div>
+                    </div>
+                    <p>Comments are not provided by this api</p>
+                </div>
+    
+                <div class="user-profile">
+                    <div class="user-details">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="details-box">
+                            <div class="user-name">jose</div>
+                            <div class="com-data">12-12-2023</div>
+                        </div>
+                    </div>
+                    <p>Comments are not provided by this api</p>
+                </div>
+    
+                <button>Show all 37 amenities</button>
+    
+    
+            </div>
+        </div>
+    
+        <div class="sixth">
+    
+        </div>
+    
+        <hr style="width: 90%; margin: auto;">
+    
+        <div class="seventh">
+            <div class="host-profile-2">
+                <div class="obj2">
+                    <img class="host-profile"
+                        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <img class="profile-badge" src="images/product-page-assests/Airbnb Superhost Badge.png" alt="">
+                </div>
+                <div class="details-box">
+                    <div class="user-name">Hosted By Host Name</div>
+                    <div class="com-data">12-12-2023</div>
+                </div>
+                
+            </div>
+            <div class="box2">
+                <i class="fa-solid fa-star"></i> 5.0 . 7 review . super host. address
+            </div>
+            <h3 >Host Name is a Super Host</h3>
+            <p >Response rate : 100%</p>
+            <p >Response time : less than 30 min</p>
+            <button>Contact Host</button>
+        </div>
+    
+        <hr style="width: 90%; margin: auto;"> -->
+    </div>
+
+
+
+
+</body>
+
+</html>

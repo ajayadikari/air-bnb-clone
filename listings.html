@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="listings.js" defer></script>
+    <script src="product-page.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+
+    <div class="list-section-1">
+        <!-- nav-bar -->
+        <nav class="row">
+            <div class="l-nav-l"></div>
+            <div class="l-nav-mid">
+                <div class="search-bar row l-search-bar">
+                    <div class="box">
+                        <input name="loc" type="text" id="l-loc">
+                    </div>
+                    <div class="box">
+                        <input type="text" name="check-in" id="l-check">
+                    </div>
+                    <div class="box" style="border: none">
+                        <input type="text" name="guests" id="l-guest">
+                    </div>
+                    <div class="box search-btn" style="border: none;">
+                        <div class="search l-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="nav-r row">
+                <div class="nav-r-l">
+                    <a href="#" style="color: black;">Become a Host</a>
+                    <i class="fa-solid fa-globe" style="color: black;"></i>
+                </div>
+                <div class="nav-r-r row" style="border: 1px solid rgb(216, 213, 213);">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+    <!-- listings section -->
+
+
+    <div class="list-section-2">
+
+        <div class="list-left">
+            <div class="cards">
+                <!-- <div class="card" data-id="123">
+                    <div class="card-left" style="background-image: url('${data.images[0]}')"></div>
+                    <div class="card-right">
+                        <div class="card-right-1 card-blocks">
+                            <div class="left">
+                                <p>Entire Home in ${loc}</p>
+                                <h2>${data.city}</h2>
+                            </div>
+                            <div class="right">
+                                ${favIcon}
+                            </div>
+                        </div>
+                        <div class="amenities">
+                            <p>home</p>
+                            <p>water</p>
+                            <p>electicity</p>
+                            <p>+3</p>
+                        </div>
+                        <div class="card-right-2 card-blocks">
+                            <div class="left">
+                                <p>${data.persons} guests. Entire Home . ${data.beds} - beds . ${data.bathrooms} - bath
+                                    . Kitches . Parking</p>
+                            </div>
+                        </div>
+                        <div class="card-right-3 card-blocks">
+                            <div class="left rating-box">
+                                <p>${data.rating}</p>
+                                ${star}
+                                <p>(${data.reviewsCount})</p>
+                            </div>
+                            <div class="right">
+                                <p>$${data.price.priceItems[0].amount}/night</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="list-right">
+
+        </div>
+    </div>
+</body>
+
+</html>

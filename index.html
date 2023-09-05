@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air BnB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="listings.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="section-1">
+
+        <!-- nav-bar -->
+        <nav class="row">
+            <div class="nav-l"></div>
+            <div class="nav-mid">
+                <ul class="row text-style">
+                    <li><a href="#">Places to stay</a></li>
+                    <li><a href="#">Experiences</a></li>
+                    <li><a href="#">Online Experiences</a></li>
+                </ul>
+            </div>
+            <div class="nav-r row">
+                <div class="nav-r-l">
+                    <a href="#">Become a Host</a>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="nav-r-r row">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- search bar -->
+
+
+
+        <div class="search-bar row">
+            <div class="box">
+                <label for="loc">Location</label>
+                <input name="loc" type="text" id="search-term" placeholder="Where are you going?">
+            </div>
+            <div class="box">
+                <label for="check-in">Check In</label>
+                <input type="text" name="check-in" placeholder="Add dates(yyyy-mm-dd)">
+            </div>
+            <div class="box">
+                <label for="check-out">Check Out</label>
+                <input type="text" name="check-out" placeholder="Add dates(yyyy-mm-dd)">
+            </div>
+            <div class="box">
+                <label for="guests">Guests</label>
+                <input type="text" name="guests" placeholder="Add guests">
+            </div>
+            <div class="box search-btn" style="border: none;">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- image and home container -->
+
+
+        <div class="home-cont">
+            <div class="home-inner">
+                <button>i'm flexible</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
