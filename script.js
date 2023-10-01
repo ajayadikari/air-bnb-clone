@@ -1,13 +1,13 @@
 const date = new Date();
 
 let day = date.getDate();
-let month = date.getMonth() + 1;
+let month = date.getMonth();
 let year = date.getFullYear();
 
 const inputs = document.querySelectorAll('input');
 const loc1 = inputs[0].value || 'delhi';
 const checkIn1 = inputs[1].value || `${year}-${month}-${day}`;
-const checkOut1 = inputs[2].value || `${year}-${month}-${day}`;
+const checkOut1 = inputs[2].value || `${year}-${month}-${day + 2}`;
 
 console.log(checkIn1, checkOut1);
 const guests1 = inputs[3].value || '2'; 
