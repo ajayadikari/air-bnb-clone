@@ -8,6 +8,8 @@ const checkout = queryParams2.get('checkout');
 const guests = queryParams2.get('guests');
 const clicked = queryParams2.get('clicked') ? queryParams2.get('clicked') : false;
 
+console.log(checkin, checkout)
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
