@@ -17,9 +17,10 @@ const searchBtn = document.querySelector(".search-btn");
 
 searchBtn.addEventListener('click', async (event) => {
     if(checkIn1 === ''|| checkOut1 === ''|| loc1 === '') {
-        alert('fill the input fields')
-        break;
+        alert('need location, check in and check out dates. add guests optional')
     }
-    const queryString = `?loc=${encodeURIComponent(inputs[0].value)}&checkin=${encodeURIComponent(checkIn1)}&checkout=${encodeURIComponent(checkOut1)}&guests=${encodeURIComponent(guests1)}&clicked=${true}`;
-    window.location.href = `listings.html${queryString}`;
+    else{
+        const queryString = `?loc=${encodeURIComponent(inputs[0].value)}&checkin=${encodeURIComponent(checkIn1)}&checkout=${encodeURIComponent(checkOut1)}&guests=${encodeURIComponent(guests1)}&clicked=${true}`;
+        window.location.href = `listings.html${queryString}`;
+    }
 });
