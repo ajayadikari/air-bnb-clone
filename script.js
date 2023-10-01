@@ -1,7 +1,13 @@
+const date = new Date();
+
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+
 const inputs = document.querySelectorAll('input');
 const loc1 = inputs[0].value || 'delhi';
-const checkIn1 = inputs[1].value || '2023-09-19';
-const checkOut1 = inputs[2].value || '2023-09-21'; 
+const checkIn1 = inputs[1].value || `${year}-${month}-${day}`;
+const checkOut1 = inputs[2].value || `${year}-${month}-${day}; 
 const guests1 = inputs[3].value || '2'; 
 
 const searchBtn = document.querySelector(".search-btn");
