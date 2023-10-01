@@ -62,6 +62,7 @@ async function fetchFunc() {
 
 
     } catch (error) {
+        alert(error);
         console.error(error);
     }
 
