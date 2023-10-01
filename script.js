@@ -7,7 +7,7 @@ let year = date.getFullYear();
 const inputs = document.querySelectorAll('input');
 const loc1 = inputs[0].value || 'delhi';
 const checkIn1 = inputs[1].value || `${year}-${month + 1}-${day}`;
-const checkIn1 = inputs[1].value || `${year}-${month + 1}-${day + 2}`;
+const checkIn2 = inputs[1].value || `${year}-${month + 1}-${day + 2}`;
 
 console.log(checkIn1, checkOut1);
 const guests1 = inputs[3].value || '2'; 
