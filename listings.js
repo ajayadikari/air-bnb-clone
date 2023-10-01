@@ -41,7 +41,7 @@ async function fetchFunc() {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'b695384d5dmshf95c66a33180574p1481a3jsn875e2329080c',
+                'X-RapidAPI-Key': 'f73af229c9msh3fcebc768e851fap1d0ef0jsncc1e8161ad67',
                 'X-RapidAPI-Host': 'airbnb13.p.rapidapi.com'
             }
         };
